@@ -13,3 +13,5 @@ __pycache__
 # Database stuff
 *.db
 *.sqlite3
+
+.env
