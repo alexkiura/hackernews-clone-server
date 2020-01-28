@@ -11,6 +11,13 @@ class UserType(DjangoObjectType):
         model = USER_MODEL
 
 
+class Query(graphene.ObjectType):
+    users = graphene.List(UserType)
+
+    def resolve_users(self, info, **kwargs):
+        return USER_MODEL.objects.all()
+
+
 class CreateUser(graphene.Mutation):
     user = graphene.Field(UserType)
 
