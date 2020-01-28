@@ -1,0 +1,15 @@
+# Python env stuff
+.virtualenv/
+__pycache__
+*$py.class
+
+# Desktop Services Store stuff
+*.DS_Store
+
+# Editor stuff
+.vscode/
+.idea/
+
+# Database stuff
+*.db
+*.sqlite3
