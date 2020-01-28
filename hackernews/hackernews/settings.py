@@ -44,7 +44,7 @@ PREREQ_APPS = [
     'graphene_django',
 ]
 
-PROJECT_APPS = []
+PROJECT_APPS = ['links']
 
 INSTALLED_APPS = [*PREREQ_APPS, *PROJECT_APPS]
 
