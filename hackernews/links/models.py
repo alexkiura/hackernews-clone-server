@@ -22,10 +22,9 @@ class Vote(models.Model):
         on_delete=models.CASCADE
     )
 
-
     class Meta:
         verbose_name = "Vote"
         verbose_name_plural = "Votes"
 
     def __str__(self):
-        return self.name
+        return 'Vote'
