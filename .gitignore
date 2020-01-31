@@ -8,6 +8,7 @@ __pycache__
 
 # Editor stuff
 .vscode/
+*.code-workspace
 .idea/
 
 # Database stuff
