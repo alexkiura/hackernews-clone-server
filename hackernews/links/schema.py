@@ -3,8 +3,7 @@ import graphene
 from graphene_django import DjangoObjectType
 from graphql import GraphQLError
 
-
-from .models import Link, Vote
+from links.models import Link, Vote
 from users.schema import UserType
 
 
